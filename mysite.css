@@ -293,12 +293,13 @@ nav{
 .profile-img{
 	width: 512px;
 	float: left;
+	text-align: center;
 }
 
 .profile-img img{
 	width: 250px;
 	height: 250px;
-	margin: 0 auto;
+	border-radius: 50%;
 }
 
 .profile-title{
@@ -377,9 +378,13 @@ nav{
 
 .contact-part1-0{
 	width: 400px;
-	margin: 0 auto;
-	text-align: left;
 	float: left;
+	text-align: center;
+}
+
+.contact-part1-0-box{
+	display: inline-block;
+	text-align: left;
 }
 
 .contact-part1-0-text{
@@ -573,10 +578,6 @@ footer{
 		text-align: center;
 	}
 
-	.profile-img img{
-		border-radius: 50%;
-	}
-
 	.profile-title{
 		width: 100%;
 		text-align: center;
@@ -604,6 +605,10 @@ footer{
 		float: none;
 	}
 
+	.contact-part1-0-box{
+	text-align: center;
+	}
+
 	.contact-part1-font{
 		width: 100%;
 		float: none;
@@ -620,6 +625,7 @@ footer{
 
 	.sns-icon1{
 		font-size: 20px;
+		margin-bottom: 5px;
 	}
 
 	.contact-part1-font i{
