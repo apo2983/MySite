@@ -536,6 +536,11 @@ footer{
 	.Feature-img-box{
 		float: none;
 		margin: 0 auto;
+		padding-top: 10px;
+	}
+
+	.Feature-img-box:first-child{
+		padding-top: 0;
 	}
 
 	.Feature-img-box:last-child{
@@ -574,7 +579,6 @@ footer{
 	.profile-img{
 		width: 100%;
 		float: none;
-		padding-top: 30px;
 		text-align: center;
 	}
 
