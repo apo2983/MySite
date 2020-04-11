@@ -449,18 +449,14 @@ footer{
 }
 
 @media screen and (max-width: 768px){
-	header{
-		width: 90%;
-		margin: 0 auto;
-	}
-
 	.header-bigbox{
 	height: 50px;
 	background-color:#ec715f;
 	}
 
 	.header-box{
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
 	position: relative;
 	}
 
@@ -479,9 +475,14 @@ footer{
 		font-size: 0px;
 	}
 	.main-visual{
-	width: 90%;
+	width: 100%;
 	background-image: url(img/code.png);
 	margin: 0 auto;
+	}
+
+	.main-visual-title{
+		width: 90%;
+		margin: 0 auto;
 	}
 
 	.main-visual-text{
@@ -492,17 +493,12 @@ footer{
 		font-size: 18px;
 	}
 
-	.portfolio-color{
-	width: 90%;
-	margin: 0 auto;
-	}
-
 	.portfolio-title{
-	width: 100%;
+	width: 90%;
 	}
 
 	.portfolio-image{
-		width: 100%;
+		width: 90%;
 		text-align: center;
 	}
 
@@ -526,14 +522,20 @@ footer{
 	}
 
 	.Feature{
+		width: 100%;
+	}
+
+	.Feature-title{
 		width: 90%;
+		margin: 0 auto;
 	}
 
 	.Feature-img-bigbox{
-		width: 90%;
+		width: 100%;
 	}
 
 	.Feature-img-box{
+		width: 90%;
 		float: none;
 		margin: 0 auto;
 		padding-top: 10px;
@@ -557,17 +559,12 @@ footer{
 		margin-bottom: 0;
 	}
 
-	.profile-color{
-	width: 90%;
-	margin: 0 auto;
-	}
-
 	.profile-part{
-		width: 100%;
+		width: 90%;
 	}
 
 	.profile-part1{
-		width: 100%;
+		width: 90%;
 	}
 
 	.profile-part-text1{
@@ -591,16 +588,17 @@ footer{
 		margin-top: 20px;
 	}
 	.contact-bigbox{
-	width: 90%;
+	width: 100%;
 	}
 
 	.contact-part{
-		width: 100%;
+		width: 90%;
 		text-align: center;
+		margin: 0 auto;
 	}
 
 	.contact-part1{
-		width: 100%;
+		width: 90%;
 	}
 
 	.contact-part1-0{
@@ -635,11 +633,6 @@ footer{
 	.contact-part1-font i{
 		display: inline-block;
 		margin-right: 8px;
-	}
-
-	footer{
-	width: 90%;
-	margin: 0 auto;
 	}
 
 }
